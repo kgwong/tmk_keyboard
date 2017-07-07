@@ -19,7 +19,7 @@ CONFIG_H = config.h
 # atmega32u4 	Teensy2.0
 # atemga32u4	TMK Converter rev.1
 # atemga32u2	TMK Converter rev.2
-MCU ?= atmega32u2
+MCU ?= atmega32u4
 
 # Processor frequency.
 #     This will define a symbol, F_CPU, in all source code files equal to the
@@ -77,7 +77,7 @@ CONSOLE_ENABLE = yes	# Console for debug(+400)
 COMMAND_ENABLE = yes    # Commands for debug and configuration
 #SLEEP_LED_ENABLE = yes  # Breathing sleep LED during USB suspend
 #NKRO_ENABLE = yes	# USB Nkey Rollover
-ADB_MOUSE_ENABLE = yes
+#ADB_MOUSE_ENABLE = yes
 #UNIMAP_ENABLE = yes
 #ACTIONMAP_ENABLE = yes         # Use 16bit actionmap instead of 8bit keymap
 #KEYMAP_SECTION_ENABLE = yes	# fixed address keymap for keymap editor

@@ -49,6 +49,7 @@ static void register_key(uint8_t key);
 void matrix_init(void)
 {
     m0110_init();
+	debug_enable = true;
     // initialize matrix state: all keys off
     for (uint8_t i=0; i < MATRIX_ROWS; i++) _matrix0[i] = 0x00;
     matrix = _matrix0;
